@@ -37,7 +37,7 @@ while(await memory.IsDocumentReadyAsync("DOC001"))
     Console.Write($"{answer.Result}");
     
     Console.ForegroundColor = ConsoleColor.Blue;
-    Console.WriteLine("\n Souces:");
+    Console.WriteLine("\n Sources:");
 
     foreach (var source in answer.RelevantSources)
     {
